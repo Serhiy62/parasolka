@@ -3,7 +3,8 @@ div.title img {
     height:150px;
     border-radius: 15px 50px;
     box-shadow: 10px 10px grey;
-    margin: 20px;
+    margin: 20px auto;
+    padding: 5px;
     position: relative;
     -webkit-transition: width 2s height 2s;
     transition: 2s;
@@ -24,7 +25,7 @@ h2.phone img{
     width: 20px;
     left: 70%;
     top: 2%;
-    margin:1%;
+    margin:1% auto;
 }
 h2.telephone {
     font-style: oblique;
@@ -32,7 +33,7 @@ h2.telephone {
     height: 20px;
     left:72%;
     top: 0;
-    margin:1%;
+    margin:1% auto;
 }
 h2.mail img{
    position: absolute;
@@ -40,7 +41,7 @@ h2.mail img{
     width: 20px;
     left: 70%;
     top:18%;
-    margin:1%;
+    margin:1% auto;
     padding-top: 1%;
 }
 h2.email {
@@ -49,7 +50,7 @@ h2.email {
     height: 20px;
     left:72%;
     top:15%;
-    margin:1%;
+    margin:1% auto;
     padding-top: 1%;
 }
 h2.skype img{
@@ -58,7 +59,7 @@ h2.skype img{
     width: 20px;
     left: 70%;
     top:42%;
-    margin:1%;
+    margin:1% auto;
     padding-top: 1%;
 }
 h2.cont {
@@ -67,19 +68,192 @@ h2.cont {
     height: 20px;
     left:72%;
     top:40%;
-    margin:1%;
+    margin:1% auto;
     padding-top: 1%;
 }
 h2:hover {
     color: #808080;
 }
-hr {
-    margin: auto;
-    position: relative;
-}
 /*menu*/
-#menu {
-    color: #46350e;
-    font-family: Comic Sans MS sans-serif;
-    font-size: 1.7em;
+div#menu  {
+    text-align: center;
+    padding: 2px;
+    margin: 5px auto;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-left: 50%;
+    top: 30%;
+    position: absolute;
+}
+div#menu #menutwo ,a{
+    border:2px solid grey;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 2px;
+    color: black;
+    font-style: italic;
+    font-size: large;
+}
+div#menu #menutwo ,a:hover {
+   background-color: #00bfff;
+   border-radius: 7px;
+   box-shadow: 2px 2px grey;
+}
+div#menutwo {
+    text-align: center;
+    padding: 2px;
+    margin: 5px auto;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-left: 2%;
+    position: absolute;
+    margin-top: 320px;
+}
+/*left*/
+div#left {
+    background-color: #F4F7EE;
+    width: 400px;
+    height: 200px;
+    border: 2px solid grey;
+    padding: 23px;
+    margin: 5px;
+    border-radius: 10px 60px;
+    float: left;
+}
+div#right {
+    background-color: #F4F7EE;
+    width: 500px;
+    height: 250px;
+    border: 2px solid grey;
+    padding: 23px;
+    margin: 10px;
+    border-radius: 60px 10px;
+    float: left;
+    margin-bottom:  100px;
+    margin-left: 160px;
+}
+body {
+    background-color:#D79BB3 ;
+}
+div#bodyleft {
+    background-color: #F4F7EE;
+    width: 300px;
+    height: 200px;
+    border: 2px solid grey;
+    padding: 23px;
+    margin: 40px;
+    border-radius: 10px;
+    float: left;
+    margin-top: 0;
+}
+div#bodycenter {
+    background-color: #F4F7EE;
+    width: 300px;
+    height: 200px;
+    border: 2px solid grey;
+    padding: 23px;
+    margin: 40px;
+    border-radius: 10px;
+    float: left;
+    margin-top: 0;
+}
+div#bodyright {
+    background-color: #F4F7EE;
+    width: 300px;
+    height: 200px;
+    border: 2px solid grey;
+    padding: 23px;
+    margin: 40px;
+    border-radius: 10px;
+    float: left;
+    margin-top: 0;
+}
+div#midleft {
+    background-color: #F4F7EE;
+    width: 300px;
+    height: 200px;
+    border: 2px solid grey;
+    padding: 23px;
+    margin: 40px;
+    border-radius: 10px;
+    float: left;
+    margin-top: 0;
+}
+div#midcenter {
+    background-color: #F4F7EE;
+    width: 300px;
+    height: 200px;
+    border: 2px solid grey;
+    padding: 23px;
+    margin: 40px;
+    border-radius: 10px;
+    float: left;
+    margin-top: 0;
+}
+div#midright {
+     background-color: #F4F7EE;
+    width: 300px;
+    height: 200px;
+    border: 2px solid grey;
+    padding: 23px;
+    margin: 40px;
+    border-radius: 10px;
+    float: left;
+    margin-top: 0;
+}
+div#lowleft {
+     background-color: #F4F7EE;
+    width: 300px;
+    height: 100px;
+    border: 2px solid grey;
+    padding: 23px;
+    margin: 40px;
+    border-radius: 30px;
+    float: left;
+    margin-top: 0
+}
+div#lowcenter {
+     background-color: #F4F7EE;
+    width: 300px;
+    height: 100px;
+    border: 2px solid grey;
+    padding: 23px;
+    margin: 40px;
+    border-radius: 30px;
+    float: left;
+    margin-top: 0
+}
+div#lowright {
+     background-color: #F4F7EE;
+    width: 300px;
+    height: 100px;
+    border: 2px solid grey;
+    padding: 23px;
+    margin: 40px;
+    border-radius: 30px;
+    float: left;
+    margin-top: 0
+}
+/*footer*/
+div#partners {
+    background-color: #F4F7EE;
+    width: 1155px;
+    height: 20px;
+    border: 2px solid grey;
+    padding: 23px;
+    margin: 40px;
+    border-radius: 30px;
+    float: left;
+    margin-top: 0
+}
+div#copyright {
+    background-color: #F4F7EE;
+    width: 1155px;
+    height: 20px;
+    border: 2px solid grey;
+    padding: 23px;
+    margin: 40px;
+    border-radius: 30px;
+    float: left;
+    margin-top: 0
 }
